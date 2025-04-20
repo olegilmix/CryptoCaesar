@@ -57,15 +57,17 @@ def decode(lang, rotate, text):
     result = ''
     if lang == 1:
         alphabet = lang_en
+        power = 26
     else:
         alphabet = lang_ru
+        power = 32
 
     for symbol in text:
         if symbol.isalpha():
             if symbol.isupper():
-                result += alphabet[(alphabet.index(symbol) - rotate) % 26]
+                result += alphabet[(alphabet.index(symbol) - rotate) % power]
             else:
-                result += alphabet[(alphabet.index(symbol) - rotate) % 26 + 26]
+                result += alphabet[(alphabet.index(symbol) - rotate) % power + power]
         else:
             result += symbol
     

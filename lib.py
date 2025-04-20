@@ -1,5 +1,6 @@
 from string import punctuation
 
+# Генерация алфавитов
 lang_en = [chr(i) for i in range(65,91)] + [chr(j) for j in range(97,123)]
 lang_ru = [chr(i) for i in range(1040,1104)]
 

@@ -2,6 +2,7 @@ from time import sleep
 import lib
 import sys
 
+# Основная функция
 def caesar_crypto():
     print('Шифр Цезаря v1.0. Author - olegilmix')
     sleep(1)

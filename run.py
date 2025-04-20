@@ -5,7 +5,7 @@ import sys
 # Основная функция
 def caesar_crypto():
     while True:
-        print('Шифр Цезаря v1.0. Author - olegilmix')
+        print('Шифр Цезаря v1.0. Author - t.me/olegilmix')
         sleep(1)
         print('Добро пожаловать!')
         sleep(2)
